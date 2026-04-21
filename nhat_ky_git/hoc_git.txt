@@ -1,1 +1,1 @@
-Ngay 1: minh biet git init
+Ngay 2: minh biet git add
