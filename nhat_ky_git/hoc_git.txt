@@ -1,1 +1,3 @@
-Ngay 3: minh biet git commit
+ngay 1
+ngay 2
+ngay 3
