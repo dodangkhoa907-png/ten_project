@@ -1,1 +1,1 @@
-Ngay 2: minh biet git add
+Ngay 3: minh biet git commit
