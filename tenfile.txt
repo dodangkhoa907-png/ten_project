@@ -1,1 +1,16 @@
-noi dung
+<table>
+        <tr><td>Username</td><td><%= request.getParameter("username") %></td></tr>
+        <tr><td>Password</td><td><%= request.getParameter("password") %></td></tr>
+        <tr><td>Giới tính</td><td><%= request.getParameter("gender") != null ? request.getParameter("gender") : "Chưa chọn" %></td></tr>
+        <tr><td>Thành phố</td><td><%= request.getParameter("city") %></td></tr>
+        <tr><td>Sở thích</td><td>
+            <%
+                String[] hobbies = request.getParameterValues("hobbies");
+                if (hobbies != null) {
+                    out.println(String.join(", ", hobbies));
+                } else {
+                    out.println("Không có");
+                }
+            %>
+        </td></tr>
+    </table>
